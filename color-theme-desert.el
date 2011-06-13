@@ -85,7 +85,7 @@
           `(linum ((t (:foreground ,desert-linum-fg :background ,desert-bg))))
           `(highlight ((t (:foreground ,desert-hl-fg :background ,desert-hl-bg))))
           `(region ((t (:inherit highlight))))
-          '(show-paren-mismatch ((t (:inherit ,font-lock-warning-face :bold t))))
+          '(show-paren-mismatch ((t (:inherit font-lock-warning-face :bold t))))
           `(show-paren-match ((t (:foreground ,desert-paren-fg :bold t))))
           '(trailing-whitespace ((t (:inherit font-lock-warning-face))))
           '(match ((t (:weight bold))))
